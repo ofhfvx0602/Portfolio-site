@@ -1,18 +1,14 @@
 # Portfolio Site
 
-ポートフォリオサイトを作成しました。ここには、私に関しての自己紹介が書いてあります。私が作成した電子書籍販売サイトやSNSアプリを見ることができます。
+ポートフォリオサイトを作成しました。ここには、私に関しての自己紹介が書いてあります。
+私が作成した電子書籍販売サイトやSNSアプリを見ることができます。
 ブログ記事も見ることができます。Githubアカウントを見ることもできます。
+レスポンシブ対応もしています。astroを使用しているので、高速かつ効率的です。
 
 
 
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build) [![Netlify Status](https://api.netlify.com/api/v1/badges/0b0bcb79-a1d8-4b32-9566-8f30af19e4cc/deploy-status)](https://app.netlify.com/sites/astro-milky-way/deploys)
-
-## 🔥 Features
-- [x] Simple and clean design, perfect for showcasing your work.
-- [x] Responsive layout for seamless viewing across different devices.
-- [x] Fast and efficient, thanks to the Astro static site generator.
-- [x] Easy to customize with CSS and straightforward HTML structure.
 
 ## ⚓ Lighthouse Score
 <p align="center">
