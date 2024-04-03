@@ -16,11 +16,8 @@ website: https://book-commerce-app-nine-tan.vercel.app/
 github: https://github.com/ofhfvx0602
 ---
 
-電子書籍を販売することができるサイトを制作しました。<br>
-Next.js/Vercel Postgres/NextAuth.js/Prisma/API
-Route/Stripe を駆使して 1 つのフレームワークで Web アプリ開発を行いました。
-MicroCMS で執筆した電子記事を販売することができます。
-NextAuth を使った OAuth 認証の実装を行いました。
+電子書籍を販売することができるサイトを制作しました。
+Next.js, Vercel Postgres, NextAuth.js, Prisma, API Route, Stripeを駆使して1つのフレームワークでWebアプリ開発を行いました。MicroCMS で執筆した電子記事を販売することができます。NextAuth を使った OAuth 認証の実装を行いました。
 <br>
 <br>
 ■ 具体的に行ったこと<br>

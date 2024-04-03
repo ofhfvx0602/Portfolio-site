@@ -25,9 +25,8 @@ const { frontmatter } = Astro.props;
 
   <!-- <div class="gif">
   <img width="300" height="259" alt="RaccoonLaptopGif" src="/laptop.webp" />
-</div> -->
+  </div> -->
   <h2>{frontmatter.title}</h2>
-  <slot />
   <ul class="badge__list">
     <li>
       <span class="badge badge--item">PLATFORM</span>{frontmatter.platform}
@@ -48,6 +47,7 @@ const { frontmatter } = Astro.props;
       >
     </li>
   </ul>
+  <slot />
   <!-- ここでWorksのところに画像を入れることができるようになる -->
   <div class="center">
     <img

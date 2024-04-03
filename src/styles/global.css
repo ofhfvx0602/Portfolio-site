@@ -27,6 +27,10 @@ h1, h2 {
     font-weight: normal;
 }
 
+indent {
+    text-indent: 2em;
+}
+
 h1 {
     font-size: 2.6rem;
     margin: 0;
