@@ -1,40 +1,57 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
 const pageTitle = "Posts";
 ---
+
 <Layout pageTitle={pageTitle}>
-    <div class="gif">
-        <img width="300" height="259" alt="RaccoonLaptopGif" src="/blog.webp"/>
+  <div style="display:flex;justify-content:center;align-items:center;">
+    <div style="width:200px;height:300px;position:relative;margin-top: 50px;">
+      <iframe
+        src="https://giphy.com/embed/3IINsQpkEutPUbG8pQ"
+        width="100%"
+        height="100%"
+        style="position:absolute"
+        frameborder="0"
+        class="giphy-embed"
+        allowfullscreen></iframe>
     </div>
-    <h2>Blog</h2>
-    <ul role="list" class="link-card-grid">
-        <Card
-            url="https://medium.com/"
-            image="/blog-post.webp"
-            title="Blog 1"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-        <Card
-            url="https://medium.com/"
-            image="/blog-post.webp"
-            title="Blog 2"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-        <Card
-            url="https://medium.com/"
-            image="/blog-post.webp"
-            title="Blog 3"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-        <Card
-            url="https://medium.com/"
-            image="/blog-post.webp"
-            title="Blog 4"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-    </ul>
-    <h2>YouTube</h2>
+  </div>
+  <p>
+    <a
+      href="https://giphy.com/gifs/pudgypenguins-caffeine-work-caffeinated-3IINsQpkEutPUbG8pQ"
+      >via GIPHY</a
+    >
+  </p>
+
+  <h2>Blog</h2>
+  <ul role="list" class="link-card-grid">
+    <Card
+      url="https://wtfgoblin.com/%e3%80%902022%e5%b9%b4%e3%80%91html%e3%81%a7%e3%81%aa%e3%81%ab%e3%81%8b%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%82%88%e3%81%86%ef%bc%81/"
+      image="/blog-image-1.jpg"
+      title="【2023年版】HTMLで簡単なページを作ってみよう！"
+      body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
+    />
+    <Card
+      url="https://wtfgoblin.com/%e3%80%902022%e5%b9%b4%e3%80%91html%e3%81%a7%e3%81%aa%e3%81%ab%e3%81%8b%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%82%88%e3%81%86%ef%bc%81/"
+      image="/blog-image-1.jpg"
+      title="【2023年版】HTMLで簡単なページを作ってみよう！"
+      body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
+    />
+    <Card
+      url="https://wtfgoblin.com/%e3%80%902022%e5%b9%b4%e3%80%91html%e3%81%a7%e3%81%aa%e3%81%ab%e3%81%8b%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%82%88%e3%81%86%ef%bc%81/"
+      image="/blog-image-1.jpg"
+      title="【2023年版】HTMLで簡単なページを作ってみよう！"
+      body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
+    />
+    <Card
+      url="https://wtfgoblin.com/%e3%80%902022%e5%b9%b4%e3%80%91html%e3%81%a7%e3%81%aa%e3%81%ab%e3%81%8b%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%82%88%e3%81%86%ef%bc%81/"
+      image="/blog-image-1.jpg"
+      title="【2023年版】HTMLで簡単なページを作ってみよう！"
+      body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
+    />
+  </ul>
+  <!-- <h2>YouTube</h2>
     <ul role="list" class="link-card-grid">
         <Card
             url="https://www.youtube.com/"
@@ -48,6 +65,5 @@ const pageTitle = "Posts";
             title="Video 2"
             body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
         />
-    </ul>
+    </ul> -->
 </Layout>
-

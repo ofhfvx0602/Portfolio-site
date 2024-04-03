@@ -1,22 +1,41 @@
 ---
 import { getCollection } from "astro:content";
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
 const allProjects = await getCollection("projects");
 const pageTitle = "Works";
 ---
-<Layout pageTitle={pageTitle}>
-    <div class="gif">
-        <img width="300" height="259" alt="RaccoonLaptopGif" src="/laptop.webp"/>
-    </div>
-    <h2>Projects</h2>
-    <ul role="list" class="link-card-grid">
-        {allProjects.map((card) => <Card 
-            url={`/projects/${card.slug}/`} 
-            image={card.data.image.url} 
-            title={card.data.title} 
-            body={card.data.description}
-        />)}
-    </ul>
-</Layout>
 
+<Layout pageTitle={pageTitle}>
+  <div style="display:flex;justify-content:center;align-items:center;">
+    <div style="width:300px;height:300px;position:relative;margin-top: 50px;">
+      <iframe
+        src="https://giphy.com/embed/qgQUggAC3Pfv687qPC"
+        width="100%"
+        height="100%"
+        style="position:absolute"
+        frameborder="0"
+        class="giphy-embed"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+  <p>
+    <a
+      href="https://giphy.com/gifs/dommespace-domme-space-programador-qgQUggAC3Pfv687qPC"
+      >via GIPHY</a
+    >
+  </p>
+  <h2>Projects</h2>
+  <ul role="list" class="link-card-grid">
+    {
+      allProjects.map((card) => (
+        <Card
+          url={`/projects/${card.slug}/`}
+          image={card.data.image.url}
+          title={card.data.title}
+          body={card.data.description}
+        />
+      ))
+    }
+  </ul>
+</Layout>
