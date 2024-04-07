@@ -1,14 +1,14 @@
 /* Global styles */
 :root {
-    --background: #1e1e2e; 
+    --background: #1e1e2e;
     --background-light: #fdebf3;
     --button: #78c2ad;
     --text: #fdebf3;
-    --text-light: #1e1e2e; 
+    --text-light: #1e1e2e;
     --text-link: #78c2ad;
     --underline: #375a7f;
     --header: , cursive;
-    --body: 'Josefin Sans', sans-serif; 
+    --body: 'Josefin Sans', sans-serif;
 }
 
 html {
@@ -22,7 +22,8 @@ body {
     text-align: justify;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--header);
     font-weight: normal;
 }
@@ -53,8 +54,9 @@ p {
     text-indent: 1rem;
 }
 
-small, li {
-    font-family: var(--body); 
+small,
+li {
+    font-family: var(--body);
 }
 
 /* Navigation Bar */
@@ -71,20 +73,23 @@ small, li {
 
 .navbar__menu {
     font-family: var(--body);
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: right;
 }
 
-.navbar__title > a, .navbar__menu > a {
+.navbar__title>a,
+.navbar__menu>a {
     color: var(--text);
     text-decoration: none;
 }
 
-.navbar__menu > a {
-    margin: 0 10px;
+.navbar__menu>a {
+    margin: 0 5px;
 }
 
-.navbar__title > a:hover, .navbar__menu > a:hover, .navbar__menu > a:focus {
+.navbar__title>a:hover,
+.navbar__menu>a:hover,
+.navbar__menu>a:focus {
     text-decoration: underline var(--underline);
     text-decoration-thickness: 2px;
     text-underline-offset: 6px;
@@ -108,20 +113,21 @@ small, li {
 }
 
 .badge__list {
-    text-indent: 1rem;
+    text-indent: 0;
     list-style: none;
     padding: 0;
+
 }
 
-.badge__list > li {
-    margin-top: 10px;
+.badge__list>li {
+    margin-top: 11px;
 }
 
 .badge--item {
     border-radius: 4px;
     font-size: 0.7rem;
-    margin-right: 5px;
-    padding: 0.5em 0.3em 0.3em 0.3em;
+    margin-right: 6px;
+    padding: 0.4em 0.3em 0em 0.3em;
 }
 
 .badge__link {
@@ -132,6 +138,7 @@ small, li {
 .badge__link:hover {
     text-decoration: underline;
 }
+
 
 /* Cards */
 .card {
@@ -183,7 +190,7 @@ small, li {
 /* Button */
 .btn {
     text-align: center;
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
     border: 2px solid var(--button);
     border-radius: 8px;
     color: var(--text);
@@ -293,20 +300,20 @@ html.light {
     color: var(--text-light);
 }
 
-.light .navbar__title > a {
+.light .navbar__title>a {
     color: var(--text-light);
 }
 
-.light .navbar__menu > a {
+.light .navbar__menu>a {
     color: var(--text-light);
 }
 
 .light .card__title {
-    color: var(--text-light); 
+    color: var(--text-light);
 }
 
 .light .card__txt {
-    color: var(--text-light); 
+    color: var(--text-light);
 }
 
 .light .btn {
@@ -344,7 +351,7 @@ html.light {
 /* Media Query */
 @media only screen and (max-width: 600px) {
     body {
-        width: 350px;
+        width: 400px;
     }
 
     .navbar {
@@ -359,7 +366,7 @@ html.light {
         text-align: center;
     }
 
-    .navbar__menu > a {
+    .navbar__menu>a {
         margin: 0 11px;
     }
 
@@ -370,7 +377,7 @@ html.light {
     }
 
     .badge__list {
-        font-size: 0.9rem;
+        font-size: 1rem;
         text-indent: 0;
     }
 
