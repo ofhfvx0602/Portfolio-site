@@ -1,9 +1,9 @@
 ---
-title: "SNS app"
-description: "簡易的なSNSアプリを作成しました。"
+title: "電子書籍販売サイト"
+description: "電子書籍を販売することができるサイトを作成しました。"
 image:
-  url: "/SNS-image.jpg"
-  alt: "SNS wallpaper"
+  url: "/電子書籍サイト.jpg"
+  alt: "book commerce wallpaper"
 worksImage1:
   url: ""
   alt: ""
@@ -11,38 +11,50 @@ worksImage2:
   url: ""
   alt: ""
 platform: Web
-stack: Next.js, Node.js, Prisma, Supabase
-website: https://sns-client-azure.vercel.app/
+stack: Next.js, Vercel Postgres, NextAuth.js, Prisma, API Route, Stripe
+website: https://book-commerce-app-nine-tan.vercel.app/
 github: https://github.com/ofhfvx0602
 ---
+
+
 <br>
 <p>
-Next.js, Node.js, Prisma, Supabaseを駆使して簡易的でSNSのようなチャットができるサイトを制作しました。
+電子書籍を販売することができるサイトを制作しました。
+Next.js, Vercel Postgres, NextAuth.js, Prisma, API Route, Stripe を駆使して 1 つのフレームワークで Web アプリ開発を行いました。MicroCMS で執筆した電子記事を販売することができます。NextAuth を使った OAuth 認証の実装を行いました。
 </p>
 
 <br>
 
 <ul>
-■ 具体的に行ったこと
-  <li>フルスタック技術を使って簡単な機能を備えた SNS 開発</li>
-  <li>Nodejs(Express)を使ったバックエンドAPI構築</li>
-  <li>Supabaseを使ったDB管理</li>
-  <li>Prismaを使ってORMを実現し、Supabaseと連携</li>
-  <li>Prismaを使ってSNS開発に必要なモデルを定義</li>
-  <li>JWTの基礎知識</li>
-  <li>ユーザー認証/ログイン/新規登録API実装</li>
-  <li>ReactのHooksを使って状態管理</li>
-  <li>ユーザー認証/ログイン/新規登録API実装</li>
-  <li>ReactのHooksを使って状態管理</li>
-  <li>ThunderClientを使ってAPIテスト</li>
-  <li>NextjsにTailwindCSSを導入</li>
-  <li>axiosライブラリを使ってAPIを叩く</li>
-  <li>SNSで必要な呟き投稿や呟き取得APIを構築</li>
-  <li>Expressにおけるミドルウェア設定の意味と実装方法</li>
-  <li>ログイン状態の監視してナビゲーションバーUIを変更</li>
-  <li>SNSにおけるプロフィールページを実装</li>
-  <li>identiconライブラリでユーザー新規登録時にアイコン自動生成</li>
-  <li>閲覧中のユーザーが投稿した呟きで取得できるAPIを作成</li>
-  <li>Vercelを使ってNextjsをデプロイ</li>
-  <li>renderを使ってNodejsをデプロイ</li>
+  ■ 具体的に行ったこと
+  <li>MicroCMS と WebHook を使った記事作成の実装を行いました。</li>
+  <li>Vercel Postgres を使った DB 管理を行いました。</li>
+  <li>Vercel Postgres を使った DB 管理を行いました。</li>
+  <li>GithubProvider を利用して OAuth 認証を実装しました。</li>
+  <li>PrismaORM を使ってデータ操作ができます。</li>
+  <li>getServerSession を使ってサーバーサイドでセッション取得しています。</li>
+  <li>microcms-sdk を使ってクライアント側で MicroCMS 専用の API を作成しました。</li>
+  <li>Next API Route で API を実装しました。</li>
+  <li>商品購入時の際にモーダルが出現します。</li>
+  <li>NextAuth でログイン/ログアウトが実装を行いました。</li>
+  <li>Stripe を使ってチェックアウト決済機能を実装しました。</li>
+  <li>決済が完了したら購入完了ページへ遷移できます。</li>
+  <li>購入時に DB に保存履歴を残すことができます。</li>
+  <li>購入履歴のデータを利用して複数回購入を防ぐ実装をしました。</li>
+  <li>商品購入履歴 API を実装しました。</li>
+  <li>Typescript ベースで Nextjs 開発ができます。</li>
+  <li>ユーザープロフィールページを作成しています。</li>
+  <li>ログイン中のユーザーの購入履歴を取得できます。</li>
+  <li>購入した記事一覧取得 API を構築しています。</li>
+  <li>Suspense を利用してローディングを実装しています。</li>
+  <li>Vercel を使ってデプロイしました。</li>
+  <li>最新記事データを反映させるために SSR を実装しました。</li>
+  <li>デプロイ後のパフォーマンス測定も行っています。</li>
+  <li>ISR に変更した際に SSR とパフォーマンスの差があるのかも分かります。</li>
+  <li>CSR と SSR と ISR をどのように使い分けるのかを理解しています。</li>
+  <li>リファクタリングできる箇所がないか？最後に確認しました。</li>
 </ul>
+
+
+
+
