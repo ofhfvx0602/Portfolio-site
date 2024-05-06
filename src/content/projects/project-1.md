@@ -1,9 +1,9 @@
 ---
-title: "X(旧Twitter)のクローン"
-description: "X(旧Twitter)のクローンを構築しました。"
+title: "ゲーミフィケーション言語学習サイト"
+description: "言語学習サイトを構築しました。"
 image:
-  url: "/sigma.png"
-  alt: "movie-img wallpaper"
+  url: "/bilingo12.png"
+  alt: "bilingo-img wallpaper"
 worksImage1:
   url: ""
   alt: ""
@@ -11,12 +11,30 @@ worksImage2:
   url: ""
   alt: ""
 platform: Web
-stack: React.js, MongoDB, Node.js, Express, Tailwind, React Query, JWT, postman, render
-website: https://sigma-app.onrender.com
-github: https://github.com/ofhfvx0602/sigma-app
+stack: Next.js 14, Typescript, React, Drizzle ORM, PostgreSQL, Server Actions, Stripe, ShadcnUI, Tailwind, Clerk, NeonDB, Vercel
+website: https://next14-bilingo.vercel.app
+github: https://github.com/ofhfvx0602/Bilingo
 ---
-
-
-
+<br>
+<ul>
+  🔳 機能
+  <li>Next.js 14 & サーバー</li>
+  <li>ElevenlabsAIを使用したAIボイス</li>
+  <li>Shadcn UIを使ったコンポーネントシステム</li>
+  <li>KenneyNLによるキャラクター</li>
+  <li>Clerkによる認証</li>
+  <li>サウンドエフェクト</li>
+  <li>ハートシステム</li>
+  <li>ポイント/XPシステム</li>
+  <li>リーダーボード</li>
+  <li>ポイントとハートを交換できるショップシステム</li>
+  <li>Stripeを使用したハート無制限機能</li>
+  <li>ランディングページ</li>
+  <li>管理ダッシュボード React Admin</li>
+  <li>DrizzleORMを使用</li>
+  <li>NeonDBを使用したPostgresDB</li>
+  <li>Vercelでデプロイメント</li>
+  <li>モバイル対応</li>
+</ul>
 
 

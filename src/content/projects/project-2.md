@@ -1,8 +1,8 @@
 ---
-title: "動画配信サイト"
-description: "動画配信サイトを構築しました。"
+title: "X(旧Twitter)のクローン"
+description: "X(旧Twitter)のクローンを構築しました。"
 image:
-  url: "/login_background.png"
+  url: "/x-clone.png"
   alt: "movie-img wallpaper"
 worksImage1:
   url: ""
@@ -11,11 +11,10 @@ worksImage2:
   url: ""
   alt: ""
 platform: Web
-stack: Next.js, Next Auth, MongoDB, React-Hook-Form, Tailwind CSS, React, Typescript
-website: https://movie-site-teal-two.vercel.app
-github: https://github.com/ofhfvx0602
+stack: Javascript, React.js, MongoDB, Node.js, Express, Tailwind, React Query, JWT, Socket.io, postman, render
+website: https://sigma-app.onrender.com
+github: https://github.com/ofhfvx0602/sigma-app
 ---
-
 
 
 

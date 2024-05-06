@@ -1,9 +1,9 @@
 ---
-title: "画像生成サイト"
-description: "AI機能とクレジット決済を備えたSaaSアプリを構築しました。"
+title: "動画配信サイト"
+description: "動画配信サイトを構築しました。"
 image:
-  url: "/skin_muscle.jpg"
-  alt: "generate-img wallpaper"
+  url: "/login_background.png"
+  alt: "movie-img wallpaper"
 worksImage1:
   url: ""
   alt: ""
@@ -11,7 +11,13 @@ worksImage2:
   url: ""
   alt: ""
 platform: Web
-stack: Next.js 14, Vercel, MongoDB, Cloudinary AI, Clerk, Stripe
-website: https://generate-image-six.vercel.app
-github: https://github.com/ofhfvx0602
+stack: Next.js, Next Auth, MongoDB, React-Hook-Form, Tailwind CSS, React, Typescript
+website: https://movie-site-teal-two.vercel.app
+github: https://github.com/ofhfvx0602/movie-site
 ---
+
+
+
+
+
+
